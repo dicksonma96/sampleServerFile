@@ -1,0 +1,41 @@
+
+Jackpot_panel.png
+size: 1288,563
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+asset/2x2px
+  rotate: false
+  xy: 1212, 105
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+asset/jackpot_base
+  rotate: true
+  xy: 1175, 108
+  size: 453, 111
+  orig: 460, 120
+  offset: 3, 5
+  index: -1
+asset/jackpot_base_particles
+  rotate: false
+  xy: 2, 2
+  size: 1031, 559
+  orig: 1040, 563
+  offset: 9, 4
+  index: -1
+asset/jackpot_frame
+  rotate: true
+  xy: 1035, 93
+  size: 468, 138
+  orig: 470, 140
+  offset: 1, 1
+  index: -1
+asset/jackpot_text
+  rotate: false
+  xy: 1035, 37
+  size: 175, 54
+  orig: 200, 75
+  offset: 16, 12
+  index: -1
