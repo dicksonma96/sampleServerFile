@@ -1,0 +1,3526 @@
+{
+"skeleton": {
+	"hash": "LGLA6gHlt3rKbNpMNOjOF7FjNCw",
+	"spine": "3.8.75",
+	"x": -234.18,
+	"y": -174.7,
+	"width": 703,
+	"height": 373.7,
+	"images": "./images/",
+	"audio": "C:/Users/User/Desktop/Work/EW Retention Tool - Magic Wish/Animation/Icon and Panel"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Maxi", "parent": "root", "y": -59.34 },
+	{ "name": "Mega", "parent": "root", "y": -18.34 },
+	{ "name": "Epic", "parent": "root", "y": 23.91 },
+	{ "name": "Magic Wish_Icon", "parent": "root", "y": 96.65 },
+	{ "name": "Magic Wish_Title", "parent": "Magic Wish_Icon", "y": 3.34 },
+	{ "name": "Efx", "parent": "root" },
+	{ "name": "Lock", "parent": "Efx", "x": 4.11, "y": -9.92 },
+	{ "name": "Title_Lightsweep", "parent": "Magic Wish_Title", "x": -5.62, "y": -5.39 },
+	{ "name": "Bow", "parent": "Magic Wish_Icon", "length": 247.53, "rotation": 11.55, "x": -105.98, "y": -23.58 },
+	{ "name": "Star_1", "parent": "Magic Wish_Icon", "x": -96.05, "y": -19.99 },
+	{ "name": "Efx_Lightsweep", "parent": "Bow", "rotation": -11.55, "x": 76.46, "y": 2.15 },
+	{ "name": "Burst_Efx", "parent": "Efx", "x": 2.89, "y": -9.5 },
+	{ "name": "Shine2", "parent": "Maxi", "x": -103.98, "y": -0.25 },
+	{ "name": "Shine1", "parent": "Mega", "x": 112.48, "y": -4.44 },
+	{ "name": "Arrow", "parent": "Bow", "x": 109.85, "y": -0.57 },
+	{ "name": "Star_2", "parent": "Magic Wish_Icon", "x": -20.95, "y": 32.02 },
+	{ "name": "Star_3", "parent": "Magic Wish_Icon", "x": 88.5, "y": 19.13 },
+	{ "name": "Star_4", "parent": "Magic Wish_Icon", "x": 78.86, "y": 39.49 },
+	{ "name": "Lock_Star2", "parent": "Lock", "x": -32.24, "y": 20.12 },
+	{ "name": "Lock_Star1", "parent": "Lock", "x": 28.1, "y": -15.38 },
+	{ "name": "Bell Notification", "parent": "root" },
+	{ "name": "Bell", "parent": "Bell Notification", "length": 48.35, "rotation": -104.04, "x": 5.15, "y": 32.58 },
+	{ "name": "Bell 1", "parent": "Bell", "x": 30.41 },
+	{ "name": "Bell Ring", "parent": "Bell 1", "x": 23.95, "y": 7.08 },
+	{ "name": "Left Wing", "parent": "Bell", "rotation": 104.04, "x": 26.78, "y": -33.69 },
+	{ "name": "Right Wing", "parent": "Bell", "rotation": 104.04, "x": 23.97, "y": 30.76 },
+	{ "name": "Bell 2", "parent": "Bell", "x": 30.41 },
+	{ "name": "Cloud", "parent": "Efx", "x": -39.29 }
+],
+"slots": [
+	{ "name": "Cloud", "bone": "Cloud", "attachment": "Cloud" },
+	{ "name": "Efx", "bone": "Bow", "attachment": "Efx" },
+	{ "name": "Efx_Lightsweep", "bone": "Efx_Lightsweep", "blend": "additive" },
+	{ "name": "Bow", "bone": "Bow", "attachment": "Bow" },
+	{ "name": "Arrow", "bone": "Arrow", "attachment": "Arrow" },
+	{ "name": "Epic_Plate", "bone": "Epic", "attachment": "Epic_Plate" },
+	{ "name": "Epic_Plate_Color", "bone": "Epic", "attachment": "Epic_Plate_Color" },
+	{ "name": "Bottom_Design", "bone": "Efx", "attachment": "Bottom_Design" },
+	{ "name": "Bottom_Design_Color", "bone": "Efx", "attachment": "Bottom_Design_Color" },
+	{ "name": "Epic", "bone": "Epic", "attachment": "Epic" },
+	{ "name": "Epic_Amount", "bone": "Epic", "attachment": "Epic_Amount" },
+	{ "name": "Epic_IDR", "bone": "Epic", "attachment": "Epic_IDR" },
+	{ "name": "Mega_Plate", "bone": "Mega", "attachment": "Mega_Plate" },
+	{ "name": "Mega_Plate_Color", "bone": "Mega", "attachment": "Mega_Plate_Color" },
+	{ "name": "Mega_Amount", "bone": "Mega", "attachment": "Mega_Amount" },
+	{ "name": "Mega", "bone": "Mega", "attachment": "Mega" },
+	{ "name": "Mega_IDR", "bone": "Mega", "attachment": "Mega_IDR" },
+	{ "name": "Maxi_Plate", "bone": "Maxi", "attachment": "Maxi_Plate" },
+	{ "name": "Maxi_Plate_Color", "bone": "Maxi", "attachment": "Maxi_Plate_Color" },
+	{ "name": "Maxi_Amount", "bone": "Maxi", "attachment": "Maxi_Amount" },
+	{ "name": "Maxi", "bone": "Maxi", "attachment": "Maxi" },
+	{ "name": "Maxi_IDR", "bone": "Maxi", "attachment": "Maxi_IDR" },
+	{ "name": "LOCK copy", "bone": "Lock", "attachment": "LOCK copy" },
+	{ "name": "Lock_Star 1", "bone": "Lock_Star1", "attachment": "Lock_Star 1" },
+	{ "name": "Lock_Star 2", "bone": "Lock_Star2", "attachment": "Lock_Star 2" },
+	{ "name": "Title", "bone": "Magic Wish_Title", "attachment": "Title" },
+	{ "name": "Star_1", "bone": "Star_1", "attachment": "Star_1" },
+	{ "name": "Star_2", "bone": "Star_2", "attachment": "Star_2" },
+	{ "name": "Star_3", "bone": "Star_3", "attachment": "Star_3" },
+	{ "name": "Star_4", "bone": "Star_4", "attachment": "Star_4" },
+	{ "name": "Epic_Color", "bone": "Epic", "attachment": "Epic_Color" },
+	{ "name": "Maxi_Color", "bone": "Maxi", "attachment": "Maxi_Color" },
+	{ "name": "Mega_Color", "bone": "Mega", "attachment": "Mega_Color" },
+	{ "name": "Title_Lightsweep", "bone": "Title_Lightsweep", "blend": "additive" },
+	{ "name": "Burst_Efx", "bone": "Burst_Efx" },
+	{ "name": "Shine1", "bone": "Shine1", "attachment": "Shine1" },
+	{ "name": "Shine2", "bone": "Shine2", "attachment": "Shine2" },
+	{ "name": "Bell", "bone": "Bell 1", "attachment": "Bell" },
+	{ "name": "Bell Ring", "bone": "Bell Ring", "attachment": "Bell Ring" },
+	{ "name": "Bell2", "bone": "Bell 2", "attachment": "Bell" },
+	{ "name": "Left Wing", "bone": "Left Wing", "attachment": "Left Wing" },
+	{ "name": "Right Wing", "bone": "Right Wing", "attachment": "Right Wing" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Maxi_Amount": {
+				"Maxi_Amount": { "x": 41, "y": -3.16, "width": 2, "height": 2 }
+			},
+			"Maxi": {
+				"Maxi": { "x": -62.5, "y": -3.66, "width": 61, "height": 36 }
+			},
+			"Left Wing": {
+				"Left Wing": { "x": -0.93, "y": 2.25, "width": 44, "height": 42 }
+			},
+			"Mega_Amount": {
+				"Mega_Amount": { "x": 40, "y": -3.16, "width": 2, "height": 2 }
+			},
+			"Shine1": {
+				"Shine1": { "x": 1.2, "y": -1.42, "width": 302, "height": 301 }
+			},
+			"Shine2": {
+				"Shine2": { "x": 1.03, "y": -1.04, "width": 133, "height": 134 }
+			},
+			"Mega_Plate": {
+				"Mega_Plate": { "x": -3.5, "y": -3.66, "width": 259, "height": 68 }
+			},
+			"LOCK copy": {
+				"LOCK copy": { "x": 4.39, "y": -0.58, "width": 125, "height": 137 }
+			},
+			"Maxi_Color": {
+				"Maxi_Color": { "x": -62.5, "y": -3.66, "width": 61, "height": 36 }
+			},
+			"Mega_Plate_Color": {
+				"Mega_Plate_Color": { "x": -3.5, "y": -3.66, "width": 259, "height": 68 }
+			},
+			"Maxi_Plate": {
+				"Maxi_Plate": { "x": -1.5, "y": -3.16, "width": 227, "height": 61 }
+			},
+			"Title": {
+				"Title": { "x": -5.5, "y": -4.49, "width": 193, "height": 121 }
+			},
+			"Epic_Amount": {
+				"Epic_Amount": { "x": 36, "y": -1.91, "width": 2, "height": 2 }
+			},
+			"Bell2": {
+				"Bell": { "x": 1.44, "y": -3.09, "rotation": 104.04, "width": 79, "height": 73 }
+			},
+			"Cloud": {
+				"Cloud": { "x": 156.61, "width": 703, "height": 184 }
+			},
+			"Mega_Color": {
+				"Mega_Color": { "x": -73, "y": -5.66, "width": 70, "height": 42 }
+			},
+			"Efx": {
+				"Efx": { "x": 76.46, "y": 2.15, "rotation": -11.55, "width": 231, "height": 139 }
+			},
+			"Burst_Efx": {
+				"Burst_Efx/Burst_Efx_00000": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00001": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00002": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00003": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00004": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00005": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00006": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00007": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00008": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00009": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00010": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00011": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00012": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00013": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00014": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00015": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00016": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00017": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00018": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00019": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00020": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00021": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00022": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00023": { "width": 200, "height": 200 },
+				"Burst_Efx/Burst_Efx_00024": { "width": 200, "height": 200 }
+			},
+			"Star_2": {
+				"Star_2": { "x": -1.05, "y": -1.18, "width": 36, "height": 35 }
+			},
+			"Epic_Plate": {
+				"Epic_Plate": { "x": -7, "y": -4.41, "width": 316, "height": 81 }
+			},
+			"Title_Lightsweep": {
+				"Lightsweep/Lightsweep_00000": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00001": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00002": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00003": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00004": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00005": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00006": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00007": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00008": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00009": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00010": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00011": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00012": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00013": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00014": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00015": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00016": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00017": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00018": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00019": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00020": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00021": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00022": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00023": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00024": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00025": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00026": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00027": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00028": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 },
+				"Lightsweep/Lightsweep_00029": { "x": 0.5, "y": 0.5, "width": 191, "height": 119 }
+			},
+			"Efx_Lightsweep": {
+				"Efx_Lightsweep/Efx_Lightsweep_00000": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00001": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00002": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00003": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00004": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00005": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00006": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00007": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00008": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00009": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00010": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00011": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00012": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00013": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00014": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00015": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00016": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00017": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00018": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00019": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00020": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00021": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00022": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00023": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00024": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00025": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00026": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00027": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00028": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 },
+				"Efx_Lightsweep/Efx_Lightsweep_00029": { "x": 0.5, "y": 0.5, "width": 231, "height": 139 }
+			},
+			"Epic_Plate_Color": {
+				"Epic_Plate_Color": { "x": -7, "y": -4.41, "width": 316, "height": 81 }
+			},
+			"Epic_Color": {
+				"Epic_Color": { "x": -91.5, "y": -3.91, "width": 63, "height": 46 }
+			},
+			"Bell": {
+				"Bell": { "x": 1.44, "y": -3.09, "rotation": 104.04, "width": 79, "height": 73 }
+			},
+			"Star_1": {
+				"Star_1": { "x": -0.95, "y": -1.16, "width": 34, "height": 33 }
+			},
+			"Maxi_IDR": {
+				"Maxi_IDR": { "x": -17, "y": -5.16, "width": 34, "height": 27 }
+			},
+			"Star_3": {
+				"Star_3": { "x": -2.5, "y": -2.28, "width": 36, "height": 29 }
+			},
+			"Star_4": {
+				"Star_4": { "x": -1.36, "y": 0.86, "width": 27, "height": 24 }
+			},
+			"Maxi_Plate_Color": {
+				"Maxi_Plate_Color": { "x": -1.5, "y": -3.16, "width": 227, "height": 61 }
+			},
+			"Arrow": {
+				"Arrow": { "x": -5.67, "y": -6.51, "rotation": -11.55, "width": 299, "height": 104 }
+			},
+			"Bow": {
+				"Bow": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 208.42, -98.82, 124.16, -81.59, 160.41, 95.74, 244.66, 78.52 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 86,
+					"height": 181
+				}
+			},
+			"Bell Ring": {
+				"Bell Ring": { "x": -0.68, "y": 1.04, "rotation": 104.04, "width": 16, "height": 13 }
+			},
+			"Mega_IDR": {
+				"Mega_IDR": { "x": -26, "y": -5.16, "width": 34, "height": 27 }
+			},
+			"Bottom_Design_Color": {
+				"Bottom_Design_Color": { "x": -1, "y": -86, "width": 218, "height": 64 }
+			},
+			"Mega": {
+				"Mega": { "x": -73, "y": -5.66, "width": 70, "height": 42 }
+			},
+			"Lock_Star 1": {
+				"Lock_Star 1": { "x": 3.28, "y": -2.2, "width": 39, "height": 49 }
+			},
+			"Lock_Star 2": {
+				"Lock_Star 2": { "x": 2.13, "y": -1.2, "width": 26, "height": 34 }
+			},
+			"Epic": {
+				"Epic": { "x": -91.5, "y": -3.91, "width": 63, "height": 46 }
+			},
+			"Bottom_Design": {
+				"Bottom_Design": { "x": -1, "y": -86, "width": 218, "height": 64 }
+			},
+			"Epic_IDR": {
+				"Epic_IDR": { "x": -45, "y": -5.41, "width": 34, "height": 27 }
+			},
+			"Right Wing": {
+				"Right Wing": { "x": 4.87, "y": -1.37, "width": 48, "height": 37 }
+			}
+		}
+	}
+],
+"animations": {
+	"No Panel_Unlock_Idle": {
+		"slots": {
+			"Epic_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Amount": {
+				"color": [
+					{ "color": "acacacff" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx_Lightsweep": {
+				"attachment": [
+					{ "name": "Efx_Lightsweep/Efx_Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00002" },
+					{ "time": 0.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Efx_Lightsweep/Efx_Lightsweep_00005" },
+					{ "time": 0.4, "name": "Efx_Lightsweep/Efx_Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Efx_Lightsweep/Efx_Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Efx_Lightsweep/Efx_Lightsweep_00008" },
+					{ "time": 0.6, "name": "Efx_Lightsweep/Efx_Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Efx_Lightsweep/Efx_Lightsweep_00010" },
+					{ "time": 0.7, "name": "Efx_Lightsweep/Efx_Lightsweep_00011" },
+					{ "time": 0.7333, "name": "Efx_Lightsweep/Efx_Lightsweep_00012" },
+					{ "time": 0.7667, "name": "Efx_Lightsweep/Efx_Lightsweep_00013" },
+					{ "time": 0.8, "name": "Efx_Lightsweep/Efx_Lightsweep_00014" },
+					{ "time": 0.8333, "name": "Efx_Lightsweep/Efx_Lightsweep_00015" },
+					{ "time": 0.8667, "name": "Efx_Lightsweep/Efx_Lightsweep_00016" },
+					{ "time": 0.9, "name": "Efx_Lightsweep/Efx_Lightsweep_00017" },
+					{ "time": 0.9333, "name": "Efx_Lightsweep/Efx_Lightsweep_00018" },
+					{ "time": 0.9667, "name": "Efx_Lightsweep/Efx_Lightsweep_00019" },
+					{ "time": 1, "name": "Efx_Lightsweep/Efx_Lightsweep_00020" },
+					{ "time": 1.0333, "name": "Efx_Lightsweep/Efx_Lightsweep_00021" },
+					{ "time": 1.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00022" },
+					{ "time": 1.1, "name": "Efx_Lightsweep/Efx_Lightsweep_00023" },
+					{ "time": 1.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00024" },
+					{ "time": 1.1667, "name": "Efx_Lightsweep/Efx_Lightsweep_00025" },
+					{ "time": 1.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00026" },
+					{ "time": 1.2333, "name": "Efx_Lightsweep/Efx_Lightsweep_00027" },
+					{ "time": 1.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00028" },
+					{ "time": 1.3, "name": "Efx_Lightsweep/Efx_Lightsweep_00029" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"LOCK copy": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title_Lightsweep": {
+				"attachment": [
+					{ "name": "Lightsweep/Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Lightsweep/Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Lightsweep/Lightsweep_00002" },
+					{ "time": 0.2, "name": "Lightsweep/Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Lightsweep/Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Lightsweep/Lightsweep_00005" },
+					{ "time": 0.4, "name": "Lightsweep/Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Lightsweep/Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Lightsweep/Lightsweep_00008" },
+					{ "time": 0.6, "name": "Lightsweep/Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Lightsweep/Lightsweep_00010" },
+					{ "time": 0.7333, "name": "Lightsweep/Lightsweep_00011" },
+					{ "time": 0.8, "name": "Lightsweep/Lightsweep_00012" },
+					{ "time": 0.8667, "name": "Lightsweep/Lightsweep_00013" },
+					{ "time": 0.9333, "name": "Lightsweep/Lightsweep_00014" },
+					{ "time": 1, "name": "Lightsweep/Lightsweep_00015" },
+					{ "time": 1.0667, "name": "Lightsweep/Lightsweep_00016" },
+					{ "time": 1.1333, "name": "Lightsweep/Lightsweep_00017" },
+					{ "time": 1.2, "name": "Lightsweep/Lightsweep_00018" },
+					{ "time": 1.2667, "name": "Lightsweep/Lightsweep_00019" },
+					{ "time": 1.3333, "name": "Lightsweep/Lightsweep_00020" },
+					{ "time": 1.4, "name": "Lightsweep/Lightsweep_00021" },
+					{ "time": 1.4667, "name": "Lightsweep/Lightsweep_00022" },
+					{ "time": 1.5333, "name": "Lightsweep/Lightsweep_00023" },
+					{ "time": 1.6, "name": "Lightsweep/Lightsweep_00024" },
+					{ "time": 1.6667, "name": "Lightsweep/Lightsweep_00025" },
+					{ "time": 1.7333, "name": "Lightsweep/Lightsweep_00026" },
+					{ "time": 1.8, "name": "Lightsweep/Lightsweep_00027" },
+					{ "time": 1.8667, "name": "Lightsweep/Lightsweep_00028" },
+					{ "time": 1.9333, "name": "Lightsweep/Lightsweep_00029" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Magic Wish_Title": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Bow": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -4.54, "y": -1.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_3": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_4": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Magic Wish_Icon": {
+				"translate": [
+					{ "x": 4.81, "y": -97.2 }
+				]
+			}
+		}
+	},
+	"No_Panel_Locked_Idle": {
+		"slots": {
+			"Epic_Plate": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_2": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bow": {
+				"color": [
+					{ "color": "8d8d8dff" }
+				]
+			},
+			"Title": {
+				"color": [
+					{ "color": "8d8d8dff" }
+				]
+			},
+			"Mega_Amount": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx": {
+				"color": [
+					{ "color": "8d8d8dff" }
+				]
+			},
+			"Star_1": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Maxi": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_4": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Arrow": {
+				"color": [
+					{ "color": "8d8d8dff" }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_3": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Lock": {
+				"translate": [
+					{ "x": -3.23, "y": 2.7 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.95, "y": 0.95, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Magic Wish_Icon": {
+				"translate": [
+					{ "x": 4.81, "y": -97.2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "LOCK copy", "offset": 9 },
+					{ "slot": "Lock_Star 1", "offset": 9 },
+					{ "slot": "Lock_Star 2", "offset": 9 }
+				]
+			}
+		]
+	},
+	"No_Panel_Unlock": {
+		"slots": {
+			"Maxi": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_2": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Lock_Star 2": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bow": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Burst_Efx": {
+				"attachment": [
+					{ "time": 0.4, "name": "Burst_Efx/Burst_Efx_00001" },
+					{ "time": 0.4333, "name": "Burst_Efx/Burst_Efx_00002" },
+					{ "time": 0.4667, "name": "Burst_Efx/Burst_Efx_00003" },
+					{ "time": 0.5, "name": "Burst_Efx/Burst_Efx_00004" },
+					{ "time": 0.5333, "name": "Burst_Efx/Burst_Efx_00005" },
+					{ "time": 0.5667, "name": "Burst_Efx/Burst_Efx_00006" },
+					{ "time": 0.6, "name": "Burst_Efx/Burst_Efx_00007" },
+					{ "time": 0.6333, "name": "Burst_Efx/Burst_Efx_00008" },
+					{ "time": 0.6667, "name": "Burst_Efx/Burst_Efx_00009" },
+					{ "time": 0.7, "name": "Burst_Efx/Burst_Efx_00010" },
+					{ "time": 0.7333, "name": "Burst_Efx/Burst_Efx_00011" },
+					{ "time": 0.7667, "name": "Burst_Efx/Burst_Efx_00012" },
+					{ "time": 0.8, "name": "Burst_Efx/Burst_Efx_00013" },
+					{ "time": 0.8333, "name": "Burst_Efx/Burst_Efx_00014" },
+					{ "time": 0.8667, "name": "Burst_Efx/Burst_Efx_00015" },
+					{ "time": 0.9, "name": "Burst_Efx/Burst_Efx_00016" },
+					{ "time": 0.9333, "name": "Burst_Efx/Burst_Efx_00017" },
+					{ "time": 0.9667, "name": "Burst_Efx/Burst_Efx_00018" },
+					{ "time": 1, "name": "Burst_Efx/Burst_Efx_00019" },
+					{ "time": 1.0333, "name": "Burst_Efx/Burst_Efx_00020" },
+					{ "time": 1.0667, "name": "Burst_Efx/Burst_Efx_00021" },
+					{ "time": 1.1, "name": "Burst_Efx/Burst_Efx_00022" },
+					{ "time": 1.1333, "name": "Burst_Efx/Burst_Efx_00023" },
+					{ "time": 1.1667, "name": "Burst_Efx/Burst_Efx_00024" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"Mega_Amount": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Star_1": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx_Lightsweep": {
+				"attachment": [
+					{ "name": "Efx_Lightsweep/Efx_Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00002" },
+					{ "time": 0.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Efx_Lightsweep/Efx_Lightsweep_00005" },
+					{ "time": 0.4, "name": "Efx_Lightsweep/Efx_Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Efx_Lightsweep/Efx_Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Efx_Lightsweep/Efx_Lightsweep_00008" },
+					{ "time": 0.6, "name": "Efx_Lightsweep/Efx_Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Efx_Lightsweep/Efx_Lightsweep_00010" },
+					{ "time": 0.7, "name": "Efx_Lightsweep/Efx_Lightsweep_00011" },
+					{ "time": 0.7333, "name": "Efx_Lightsweep/Efx_Lightsweep_00012" },
+					{ "time": 0.7667, "name": "Efx_Lightsweep/Efx_Lightsweep_00013" },
+					{ "time": 0.8, "name": "Efx_Lightsweep/Efx_Lightsweep_00014" },
+					{ "time": 0.8333, "name": "Efx_Lightsweep/Efx_Lightsweep_00015" },
+					{ "time": 0.8667, "name": "Efx_Lightsweep/Efx_Lightsweep_00016" },
+					{ "time": 0.9, "name": "Efx_Lightsweep/Efx_Lightsweep_00017" },
+					{ "time": 0.9333, "name": "Efx_Lightsweep/Efx_Lightsweep_00018" },
+					{ "time": 0.9667, "name": "Efx_Lightsweep/Efx_Lightsweep_00019" },
+					{ "time": 1, "name": "Efx_Lightsweep/Efx_Lightsweep_00020" },
+					{ "time": 1.0333, "name": "Efx_Lightsweep/Efx_Lightsweep_00021" },
+					{ "time": 1.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00022" },
+					{ "time": 1.1, "name": "Efx_Lightsweep/Efx_Lightsweep_00023" },
+					{ "time": 1.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00024" },
+					{ "time": 1.1667, "name": "Efx_Lightsweep/Efx_Lightsweep_00025" },
+					{ "time": 1.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00026" },
+					{ "time": 1.2333, "name": "Efx_Lightsweep/Efx_Lightsweep_00027" },
+					{ "time": 1.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00028" },
+					{ "time": 1.3, "name": "Efx_Lightsweep/Efx_Lightsweep_00029" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_4": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Arrow": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 1": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"LOCK copy": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "color": "ffffff00" }
+				]
+			},
+			"Title_Lightsweep": {
+				"attachment": [
+					{ "name": "Lightsweep/Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Lightsweep/Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Lightsweep/Lightsweep_00002" },
+					{ "time": 0.2, "name": "Lightsweep/Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Lightsweep/Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Lightsweep/Lightsweep_00005" },
+					{ "time": 0.4, "name": "Lightsweep/Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Lightsweep/Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Lightsweep/Lightsweep_00008" },
+					{ "time": 0.6, "name": "Lightsweep/Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Lightsweep/Lightsweep_00010" },
+					{ "time": 0.7333, "name": "Lightsweep/Lightsweep_00011" },
+					{ "time": 0.8, "name": "Lightsweep/Lightsweep_00012" },
+					{ "time": 0.8667, "name": "Lightsweep/Lightsweep_00013" },
+					{ "time": 0.9333, "name": "Lightsweep/Lightsweep_00014" },
+					{ "time": 1, "name": "Lightsweep/Lightsweep_00015" },
+					{ "time": 1.0667, "name": "Lightsweep/Lightsweep_00016" },
+					{ "time": 1.1333, "name": "Lightsweep/Lightsweep_00017" },
+					{ "time": 1.2, "name": "Lightsweep/Lightsweep_00018" },
+					{ "time": 1.2667, "name": "Lightsweep/Lightsweep_00019" },
+					{ "time": 1.3333, "name": "Lightsweep/Lightsweep_00020" },
+					{ "time": 1.4, "name": "Lightsweep/Lightsweep_00021" },
+					{ "time": 1.4667, "name": "Lightsweep/Lightsweep_00022" },
+					{ "time": 1.5333, "name": "Lightsweep/Lightsweep_00023" },
+					{ "time": 1.6, "name": "Lightsweep/Lightsweep_00024" },
+					{ "time": 1.6667, "name": "Lightsweep/Lightsweep_00025" },
+					{ "time": 1.7333, "name": "Lightsweep/Lightsweep_00026" },
+					{ "time": 1.8, "name": "Lightsweep/Lightsweep_00027" },
+					{ "time": 1.8667, "name": "Lightsweep/Lightsweep_00028" },
+					{ "time": 1.9333, "name": "Lightsweep/Lightsweep_00029" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_3": {
+				"color": [
+					{ "color": "8d8d8dff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "8d8d8dff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffff" }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "acacac00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Bow": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -4.54, "y": -1.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock": {
+				"rotate": [
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "angle": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "angle": -2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333 }
+				],
+				"translate": [
+					{ "x": -3.23, "y": 2.7 }
+				],
+				"scale": [
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"Burst_Efx": {
+				"translate": [
+					{ "x": -4.67 }
+				],
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"Arrow": {
+				"translate": [
+					{ "time": 0.0667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": -18.41, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 17.81, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667 }
+				]
+			},
+			"Star_2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_3": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_4": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Magic Wish_Title": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 0.9, "y": 0.9, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 0.7, "x": 1.05, "y": 1.05, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 1.0333 }
+				]
+			},
+			"Magic Wish_Icon": {
+				"translate": [
+					{ "x": 4.81, "y": -97.2 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"Bow": {
+					"Bow": [
+						{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+						{
+							"time": 0.5,
+							"vertices": [ -5.8584, 8.86769, -23.10559, 0.43017, -23.50388, -14.52364, -2.8464, -3.03403 ],
+							"curve": 0.299,
+							"c3": 0.636,
+							"c4": 0.36
+						},
+						{
+							"time": 0.6667,
+							"vertices": [ -4.3695, -0.15292, -6.96786, 1.42408, -6.96786, 1.42408, -4.3695, -0.15292 ],
+							"curve": 0.298,
+							"c2": 0.2,
+							"c3": 0.756
+						},
+						{ "time": 1.1667 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "LOCK copy", "offset": 9 },
+					{ "slot": "Lock_Star 1", "offset": 9 },
+					{ "slot": "Lock_Star 2", "offset": 9 }
+				]
+			}
+		]
+	},
+	"Notification Bell": {
+		"slots": {
+			"Epic_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bow": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Amount": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx_Lightsweep": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_4": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Arrow": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Burst_Efx": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"LOCK copy": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title_Lightsweep": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_3": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "color": "ffffff00" }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Bell": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.267, "c3": 0.618, "c4": 0.42 },
+					{ "time": 0.5, "angle": -8.4, "curve": 0.322, "c2": 0.3, "c3": 0.673, "c4": 0.69 },
+					{ "time": 1, "angle": 7.97, "curve": 0.382, "c2": 0.57, "c3": 0.737 },
+					{ "time": 1.5, "angle": -8.4, "curve": 0.322, "c2": 0.3, "c3": 0.673, "c4": 0.69 },
+					{ "time": 2 }
+				]
+			},
+			"Left Wing": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333 }
+				]
+			},
+			"Right Wing": {
+				"scale": [
+					{ "time": 0.1667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1 }
+				]
+			},
+			"Bell Ring": {
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "y": -2.94, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 1.01, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "y": -2.94, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Bell 1": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7 }
+				]
+			},
+			"Bell 2": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "x": 1.4, "y": 1.4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "x": 1.4, "y": 1.4 }
+				]
+			}
+		}
+	},
+	"Panel_Cloud": {
+		"slots": {
+			"Maxi": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bow": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Burst_Efx": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Mega_Amount": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx_Lightsweep": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_4": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Arrow": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Star_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"LOCK copy": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title_Lightsweep": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"Star_3": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Cloud": {
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "x": -49.91 }
+				]
+			}
+		}
+	},
+	"Panel_Locked_Idle": {
+		"slots": {
+			"Epic_Plate": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Amount": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx_Lightsweep": {
+				"attachment": [
+					{ "name": "Efx_Lightsweep/Efx_Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00002" },
+					{ "time": 0.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Efx_Lightsweep/Efx_Lightsweep_00005" },
+					{ "time": 0.4, "name": "Efx_Lightsweep/Efx_Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Efx_Lightsweep/Efx_Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Efx_Lightsweep/Efx_Lightsweep_00008" },
+					{ "time": 0.6, "name": "Efx_Lightsweep/Efx_Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Efx_Lightsweep/Efx_Lightsweep_00010" },
+					{ "time": 0.7, "name": "Efx_Lightsweep/Efx_Lightsweep_00011" },
+					{ "time": 0.7333, "name": "Efx_Lightsweep/Efx_Lightsweep_00012" },
+					{ "time": 0.7667, "name": "Efx_Lightsweep/Efx_Lightsweep_00013" },
+					{ "time": 0.8, "name": "Efx_Lightsweep/Efx_Lightsweep_00014" },
+					{ "time": 0.8333, "name": "Efx_Lightsweep/Efx_Lightsweep_00015" },
+					{ "time": 0.8667, "name": "Efx_Lightsweep/Efx_Lightsweep_00016" },
+					{ "time": 0.9, "name": "Efx_Lightsweep/Efx_Lightsweep_00017" },
+					{ "time": 0.9333, "name": "Efx_Lightsweep/Efx_Lightsweep_00018" },
+					{ "time": 0.9667, "name": "Efx_Lightsweep/Efx_Lightsweep_00019" },
+					{ "time": 1, "name": "Efx_Lightsweep/Efx_Lightsweep_00020" },
+					{ "time": 1.0333, "name": "Efx_Lightsweep/Efx_Lightsweep_00021" },
+					{ "time": 1.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00022" },
+					{ "time": 1.1, "name": "Efx_Lightsweep/Efx_Lightsweep_00023" },
+					{ "time": 1.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00024" },
+					{ "time": 1.1667, "name": "Efx_Lightsweep/Efx_Lightsweep_00025" },
+					{ "time": 1.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00026" },
+					{ "time": 1.2333, "name": "Efx_Lightsweep/Efx_Lightsweep_00027" },
+					{ "time": 1.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00028" },
+					{ "time": 1.3, "name": "Efx_Lightsweep/Efx_Lightsweep_00029" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title_Lightsweep": {
+				"attachment": [
+					{ "name": "Lightsweep/Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Lightsweep/Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Lightsweep/Lightsweep_00002" },
+					{ "time": 0.2, "name": "Lightsweep/Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Lightsweep/Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Lightsweep/Lightsweep_00005" },
+					{ "time": 0.4, "name": "Lightsweep/Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Lightsweep/Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Lightsweep/Lightsweep_00008" },
+					{ "time": 0.6, "name": "Lightsweep/Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Lightsweep/Lightsweep_00010" },
+					{ "time": 0.7333, "name": "Lightsweep/Lightsweep_00011" },
+					{ "time": 0.8, "name": "Lightsweep/Lightsweep_00012" },
+					{ "time": 0.8667, "name": "Lightsweep/Lightsweep_00013" },
+					{ "time": 0.9333, "name": "Lightsweep/Lightsweep_00014" },
+					{ "time": 1, "name": "Lightsweep/Lightsweep_00015" },
+					{ "time": 1.0667, "name": "Lightsweep/Lightsweep_00016" },
+					{ "time": 1.1333, "name": "Lightsweep/Lightsweep_00017" },
+					{ "time": 1.2, "name": "Lightsweep/Lightsweep_00018" },
+					{ "time": 1.2667, "name": "Lightsweep/Lightsweep_00019" },
+					{ "time": 1.3333, "name": "Lightsweep/Lightsweep_00020" },
+					{ "time": 1.4, "name": "Lightsweep/Lightsweep_00021" },
+					{ "time": 1.4667, "name": "Lightsweep/Lightsweep_00022" },
+					{ "time": 1.5333, "name": "Lightsweep/Lightsweep_00023" },
+					{ "time": 1.6, "name": "Lightsweep/Lightsweep_00024" },
+					{ "time": 1.6667, "name": "Lightsweep/Lightsweep_00025" },
+					{ "time": 1.7333, "name": "Lightsweep/Lightsweep_00026" },
+					{ "time": 1.8, "name": "Lightsweep/Lightsweep_00027" },
+					{ "time": 1.8667, "name": "Lightsweep/Lightsweep_00028" },
+					{ "time": 1.9333, "name": "Lightsweep/Lightsweep_00029" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Magic Wish_Title": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Bow": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -4.54, "y": -1.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.95, "y": 0.95, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_3": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_4": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"Panel_Unlock": {
+		"slots": {
+			"Epic_Plate": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.6, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "acacac00" }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 2": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"Mega_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"Burst_Efx": {
+				"attachment": [
+					{ "time": 0.4, "name": "Burst_Efx/Burst_Efx_00001" },
+					{ "time": 0.4333, "name": "Burst_Efx/Burst_Efx_00002" },
+					{ "time": 0.4667, "name": "Burst_Efx/Burst_Efx_00003" },
+					{ "time": 0.5, "name": "Burst_Efx/Burst_Efx_00004" },
+					{ "time": 0.5333, "name": "Burst_Efx/Burst_Efx_00005" },
+					{ "time": 0.5667, "name": "Burst_Efx/Burst_Efx_00006" },
+					{ "time": 0.6, "name": "Burst_Efx/Burst_Efx_00007" },
+					{ "time": 0.6333, "name": "Burst_Efx/Burst_Efx_00008" },
+					{ "time": 0.6667, "name": "Burst_Efx/Burst_Efx_00009" },
+					{ "time": 0.7, "name": "Burst_Efx/Burst_Efx_00010" },
+					{ "time": 0.7333, "name": "Burst_Efx/Burst_Efx_00011" },
+					{ "time": 0.7667, "name": "Burst_Efx/Burst_Efx_00012" },
+					{ "time": 0.8, "name": "Burst_Efx/Burst_Efx_00013" },
+					{ "time": 0.8333, "name": "Burst_Efx/Burst_Efx_00014" },
+					{ "time": 0.8667, "name": "Burst_Efx/Burst_Efx_00015" },
+					{ "time": 0.9, "name": "Burst_Efx/Burst_Efx_00016" },
+					{ "time": 0.9333, "name": "Burst_Efx/Burst_Efx_00017" },
+					{ "time": 0.9667, "name": "Burst_Efx/Burst_Efx_00018" },
+					{ "time": 1, "name": "Burst_Efx/Burst_Efx_00019" },
+					{ "time": 1.0333, "name": "Burst_Efx/Burst_Efx_00020" },
+					{ "time": 1.0667, "name": "Burst_Efx/Burst_Efx_00021" },
+					{ "time": 1.1, "name": "Burst_Efx/Burst_Efx_00022" },
+					{ "time": 1.1333, "name": "Burst_Efx/Burst_Efx_00023" },
+					{ "time": 1.1667, "name": "Burst_Efx/Burst_Efx_00024" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"Mega_Amount": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.5667, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.8, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "color": "acacac00" }
+				]
+			},
+			"Bottom_Design_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"Efx_Lightsweep": {
+				"attachment": [
+					{ "name": "Efx_Lightsweep/Efx_Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00002" },
+					{ "time": 0.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Efx_Lightsweep/Efx_Lightsweep_00005" },
+					{ "time": 0.4, "name": "Efx_Lightsweep/Efx_Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Efx_Lightsweep/Efx_Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Efx_Lightsweep/Efx_Lightsweep_00008" },
+					{ "time": 0.6, "name": "Efx_Lightsweep/Efx_Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Efx_Lightsweep/Efx_Lightsweep_00010" },
+					{ "time": 0.7, "name": "Efx_Lightsweep/Efx_Lightsweep_00011" },
+					{ "time": 0.7333, "name": "Efx_Lightsweep/Efx_Lightsweep_00012" },
+					{ "time": 0.7667, "name": "Efx_Lightsweep/Efx_Lightsweep_00013" },
+					{ "time": 0.8, "name": "Efx_Lightsweep/Efx_Lightsweep_00014" },
+					{ "time": 0.8333, "name": "Efx_Lightsweep/Efx_Lightsweep_00015" },
+					{ "time": 0.8667, "name": "Efx_Lightsweep/Efx_Lightsweep_00016" },
+					{ "time": 0.9, "name": "Efx_Lightsweep/Efx_Lightsweep_00017" },
+					{ "time": 0.9333, "name": "Efx_Lightsweep/Efx_Lightsweep_00018" },
+					{ "time": 0.9667, "name": "Efx_Lightsweep/Efx_Lightsweep_00019" },
+					{ "time": 1, "name": "Efx_Lightsweep/Efx_Lightsweep_00020" },
+					{ "time": 1.0333, "name": "Efx_Lightsweep/Efx_Lightsweep_00021" },
+					{ "time": 1.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00022" },
+					{ "time": 1.1, "name": "Efx_Lightsweep/Efx_Lightsweep_00023" },
+					{ "time": 1.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00024" },
+					{ "time": 1.1667, "name": "Efx_Lightsweep/Efx_Lightsweep_00025" },
+					{ "time": 1.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00026" },
+					{ "time": 1.2333, "name": "Efx_Lightsweep/Efx_Lightsweep_00027" },
+					{ "time": 1.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00028" },
+					{ "time": 1.3, "name": "Efx_Lightsweep/Efx_Lightsweep_00029" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"Maxi_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_IDR": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "acacacff" }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.8, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "color": "acacac00" }
+				]
+			},
+			"Lock_Star 1": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"LOCK copy": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "color": "ffffff00" }
+				]
+			},
+			"Title_Lightsweep": {
+				"attachment": [
+					{ "name": "Lightsweep/Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Lightsweep/Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Lightsweep/Lightsweep_00002" },
+					{ "time": 0.2, "name": "Lightsweep/Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Lightsweep/Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Lightsweep/Lightsweep_00005" },
+					{ "time": 0.4, "name": "Lightsweep/Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Lightsweep/Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Lightsweep/Lightsweep_00008" },
+					{ "time": 0.6, "name": "Lightsweep/Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Lightsweep/Lightsweep_00010" },
+					{ "time": 0.7333, "name": "Lightsweep/Lightsweep_00011" },
+					{ "time": 0.8, "name": "Lightsweep/Lightsweep_00012" },
+					{ "time": 0.8667, "name": "Lightsweep/Lightsweep_00013" },
+					{ "time": 0.9333, "name": "Lightsweep/Lightsweep_00014" },
+					{ "time": 1, "name": "Lightsweep/Lightsweep_00015" },
+					{ "time": 1.0667, "name": "Lightsweep/Lightsweep_00016" },
+					{ "time": 1.1333, "name": "Lightsweep/Lightsweep_00017" },
+					{ "time": 1.2, "name": "Lightsweep/Lightsweep_00018" },
+					{ "time": 1.2667, "name": "Lightsweep/Lightsweep_00019" },
+					{ "time": 1.3333, "name": "Lightsweep/Lightsweep_00020" },
+					{ "time": 1.4, "name": "Lightsweep/Lightsweep_00021" },
+					{ "time": 1.4667, "name": "Lightsweep/Lightsweep_00022" },
+					{ "time": 1.5333, "name": "Lightsweep/Lightsweep_00023" },
+					{ "time": 1.6, "name": "Lightsweep/Lightsweep_00024" },
+					{ "time": 1.6667, "name": "Lightsweep/Lightsweep_00025" },
+					{ "time": 1.7333, "name": "Lightsweep/Lightsweep_00026" },
+					{ "time": 1.8, "name": "Lightsweep/Lightsweep_00027" },
+					{ "time": 1.8667, "name": "Lightsweep/Lightsweep_00028" },
+					{ "time": 1.9333, "name": "Lightsweep/Lightsweep_00029" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.7, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "acacac00" }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.8, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "color": "acacac00" }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Mega_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"Epic_Amount": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic_IDR": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"Mega_IDR": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.5667, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.7, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "acacac00" }
+				]
+			},
+			"Epic_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"Maxi_Plate_Color": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"Maxi_Amount": {
+				"color": [
+					{ "color": "acacacff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "acacacff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "color": "ffffffff" }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Mega": {
+				"scale": [
+					{ "time": 0.5667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1 }
+				]
+			},
+			"Maxi": {
+				"scale": [
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2 }
+				]
+			},
+			"Epic": {
+				"scale": [
+					{ "time": 0.4667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1 }
+				]
+			},
+			"Bow": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -4.54, "y": -1.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock": {
+				"rotate": [
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "angle": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "angle": -2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333 }
+				],
+				"scale": [
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"Burst_Efx": {
+				"scale": [
+					{ "x": 1.5, "y": 1.5 }
+				]
+			},
+			"Arrow": {
+				"translate": [
+					{ "time": 0.0667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": -18.41, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 17.81, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667 }
+				]
+			},
+			"Star_2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_3": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_4": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Lock_Star1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Magic Wish_Title": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 0.9, "y": 0.9, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 0.7, "x": 1.05, "y": 1.05, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 1.0333 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"Bow": {
+					"Bow": [
+						{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+						{
+							"time": 0.5,
+							"vertices": [ -5.8584, 8.86769, -23.10559, 0.43017, -23.50388, -14.52364, -2.8464, -3.03403 ],
+							"curve": 0.299,
+							"c3": 0.636,
+							"c4": 0.36
+						},
+						{
+							"time": 0.6667,
+							"vertices": [ -4.3695, -0.15292, -6.96786, 1.42408, -6.96786, 1.42408, -4.3695, -0.15292 ],
+							"curve": 0.298,
+							"c2": 0.2,
+							"c3": 0.756
+						},
+						{ "time": 1.1667 }
+					]
+				}
+			}
+		}
+	},
+	"Panel_Unlocked_Idle": {
+		"slots": {
+			"Epic_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell Ring": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"Mega_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Efx_Lightsweep": {
+				"attachment": [
+					{ "name": "Efx_Lightsweep/Efx_Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00002" },
+					{ "time": 0.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Efx_Lightsweep/Efx_Lightsweep_00005" },
+					{ "time": 0.4, "name": "Efx_Lightsweep/Efx_Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Efx_Lightsweep/Efx_Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Efx_Lightsweep/Efx_Lightsweep_00008" },
+					{ "time": 0.6, "name": "Efx_Lightsweep/Efx_Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Efx_Lightsweep/Efx_Lightsweep_00010" },
+					{ "time": 0.7, "name": "Efx_Lightsweep/Efx_Lightsweep_00011" },
+					{ "time": 0.7333, "name": "Efx_Lightsweep/Efx_Lightsweep_00012" },
+					{ "time": 0.7667, "name": "Efx_Lightsweep/Efx_Lightsweep_00013" },
+					{ "time": 0.8, "name": "Efx_Lightsweep/Efx_Lightsweep_00014" },
+					{ "time": 0.8333, "name": "Efx_Lightsweep/Efx_Lightsweep_00015" },
+					{ "time": 0.8667, "name": "Efx_Lightsweep/Efx_Lightsweep_00016" },
+					{ "time": 0.9, "name": "Efx_Lightsweep/Efx_Lightsweep_00017" },
+					{ "time": 0.9333, "name": "Efx_Lightsweep/Efx_Lightsweep_00018" },
+					{ "time": 0.9667, "name": "Efx_Lightsweep/Efx_Lightsweep_00019" },
+					{ "time": 1, "name": "Efx_Lightsweep/Efx_Lightsweep_00020" },
+					{ "time": 1.0333, "name": "Efx_Lightsweep/Efx_Lightsweep_00021" },
+					{ "time": 1.0667, "name": "Efx_Lightsweep/Efx_Lightsweep_00022" },
+					{ "time": 1.1, "name": "Efx_Lightsweep/Efx_Lightsweep_00023" },
+					{ "time": 1.1333, "name": "Efx_Lightsweep/Efx_Lightsweep_00024" },
+					{ "time": 1.1667, "name": "Efx_Lightsweep/Efx_Lightsweep_00025" },
+					{ "time": 1.2, "name": "Efx_Lightsweep/Efx_Lightsweep_00026" },
+					{ "time": 1.2333, "name": "Efx_Lightsweep/Efx_Lightsweep_00027" },
+					{ "time": 1.2667, "name": "Efx_Lightsweep/Efx_Lightsweep_00028" },
+					{ "time": 1.3, "name": "Efx_Lightsweep/Efx_Lightsweep_00029" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"Right Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Maxi_Plate": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lock_Star 1": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"LOCK copy": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Title_Lightsweep": {
+				"attachment": [
+					{ "name": "Lightsweep/Lightsweep_00000" },
+					{ "time": 0.0667, "name": "Lightsweep/Lightsweep_00001" },
+					{ "time": 0.1333, "name": "Lightsweep/Lightsweep_00002" },
+					{ "time": 0.2, "name": "Lightsweep/Lightsweep_00003" },
+					{ "time": 0.2667, "name": "Lightsweep/Lightsweep_00004" },
+					{ "time": 0.3333, "name": "Lightsweep/Lightsweep_00005" },
+					{ "time": 0.4, "name": "Lightsweep/Lightsweep_00006" },
+					{ "time": 0.4667, "name": "Lightsweep/Lightsweep_00007" },
+					{ "time": 0.5333, "name": "Lightsweep/Lightsweep_00008" },
+					{ "time": 0.6, "name": "Lightsweep/Lightsweep_00009" },
+					{ "time": 0.6667, "name": "Lightsweep/Lightsweep_00010" },
+					{ "time": 0.7333, "name": "Lightsweep/Lightsweep_00011" },
+					{ "time": 0.8, "name": "Lightsweep/Lightsweep_00012" },
+					{ "time": 0.8667, "name": "Lightsweep/Lightsweep_00013" },
+					{ "time": 0.9333, "name": "Lightsweep/Lightsweep_00014" },
+					{ "time": 1, "name": "Lightsweep/Lightsweep_00015" },
+					{ "time": 1.0667, "name": "Lightsweep/Lightsweep_00016" },
+					{ "time": 1.1333, "name": "Lightsweep/Lightsweep_00017" },
+					{ "time": 1.2, "name": "Lightsweep/Lightsweep_00018" },
+					{ "time": 1.2667, "name": "Lightsweep/Lightsweep_00019" },
+					{ "time": 1.3333, "name": "Lightsweep/Lightsweep_00020" },
+					{ "time": 1.4, "name": "Lightsweep/Lightsweep_00021" },
+					{ "time": 1.4667, "name": "Lightsweep/Lightsweep_00022" },
+					{ "time": 1.5333, "name": "Lightsweep/Lightsweep_00023" },
+					{ "time": 1.6, "name": "Lightsweep/Lightsweep_00024" },
+					{ "time": 1.6667, "name": "Lightsweep/Lightsweep_00025" },
+					{ "time": 1.7333, "name": "Lightsweep/Lightsweep_00026" },
+					{ "time": 1.8, "name": "Lightsweep/Lightsweep_00027" },
+					{ "time": 1.8667, "name": "Lightsweep/Lightsweep_00028" },
+					{ "time": 1.9333, "name": "Lightsweep/Lightsweep_00029" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"Mega": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cloud": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bottom_Design": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Bell2": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Epic": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Left Wing": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Shine1": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Magic Wish_Title": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Bow": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -4.54, "y": -1.09, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_1": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Epic": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Mega": {
+				"scale": [
+					{ "time": 0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				]
+			},
+			"Maxi": {
+				"scale": [
+					{ "time": 0.3667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.05, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667 }
+				]
+			},
+			"Shine2": {
+				"rotate": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 90 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1 }
+				]
+			},
+			"Shine1": {
+				"rotate": [
+					{ "time": 0.8333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8, "angle": 90 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0.5, "y": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8 }
+				]
+			},
+			"Star_2": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_3": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Star_4": {
+				"rotate": [
+					{ "time": 0.0333 },
+					{ "time": 1, "angle": 179 },
+					{ "time": 1.0333, "angle": -179 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

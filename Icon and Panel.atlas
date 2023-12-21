@@ -1,0 +1,867 @@
+
+Icon and Panel.png
+size: 1985,526
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arrow
+  rotate: false
+  xy: 490, 424
+  size: 295, 100
+  orig: 299, 104
+  offset: 2, 2
+  index: -1
+Bell
+  rotate: false
+  xy: 1326, 2
+  size: 73, 71
+  orig: 79, 73
+  offset: 1, 1
+  index: -1
+Bell Ring
+  rotate: true
+  xy: 1402, 372
+  size: 10, 11
+  orig: 16, 13
+  offset: 2, 1
+  index: -1
+Bottom_Design
+  rotate: false
+  xy: 1012, 384
+  size: 214, 61
+  orig: 218, 64
+  offset: 2, 2
+  index: -1
+Bottom_Design_Color
+  rotate: false
+  xy: 1228, 384
+  size: 214, 61
+  orig: 218, 64
+  offset: 2, 2
+  index: -1
+Bow
+  rotate: true
+  xy: 1444, 372
+  size: 86, 181
+  orig: 86, 181
+  offset: 0, 0
+  index: -1
+Burst_Efx/Burst_Efx_00000
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Burst_Efx/Burst_Efx_00024
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00000
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00001
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00002
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00003
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00004
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00005
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00006
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00007
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00008
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00028
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00029
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00000
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00001
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00002
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00003
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00004
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00005
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00006
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00026
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00027
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00028
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Lightsweep/Lightsweep_00029
+  rotate: false
+  xy: 890, 257
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Burst_Efx/Burst_Efx_00001
+  rotate: false
+  xy: 1278, 9
+  size: 28, 28
+  orig: 200, 200
+  offset: 88, 89
+  index: -1
+Burst_Efx/Burst_Efx_00002
+  rotate: false
+  xy: 1630, 33
+  size: 32, 32
+  orig: 200, 200
+  offset: 86, 87
+  index: -1
+Burst_Efx/Burst_Efx_00003
+  rotate: false
+  xy: 1193, 2
+  size: 35, 34
+  orig: 200, 200
+  offset: 85, 86
+  index: -1
+Burst_Efx/Burst_Efx_00004
+  rotate: false
+  xy: 1897, 29
+  size: 42, 41
+  orig: 200, 200
+  offset: 83, 82
+  index: -1
+Burst_Efx/Burst_Efx_00005
+  rotate: true
+  xy: 1897, 72
+  size: 49, 48
+  orig: 200, 200
+  offset: 80, 79
+  index: -1
+Burst_Efx/Burst_Efx_00006
+  rotate: false
+  xy: 1401, 2
+  size: 65, 63
+  orig: 200, 200
+  offset: 70, 72
+  index: -1
+Burst_Efx/Burst_Efx_00007
+  rotate: true
+  xy: 1326, 75
+  size: 74, 73
+  orig: 200, 200
+  offset: 65, 67
+  index: -1
+Burst_Efx/Burst_Efx_00008
+  rotate: false
+  xy: 1691, 130
+  size: 83, 83
+  orig: 200, 200
+  offset: 61, 62
+  index: -1
+Burst_Efx/Burst_Efx_00009
+  rotate: false
+  xy: 1892, 435
+  size: 90, 89
+  orig: 200, 200
+  offset: 57, 59
+  index: -1
+Burst_Efx/Burst_Efx_00010
+  rotate: false
+  xy: 1502, 150
+  size: 93, 93
+  orig: 200, 200
+  offset: 56, 57
+  index: -1
+Burst_Efx/Burst_Efx_00011
+  rotate: true
+  xy: 1401, 147
+  size: 98, 99
+  orig: 200, 200
+  offset: 53, 54
+  index: -1
+Burst_Efx/Burst_Efx_00012
+  rotate: false
+  xy: 1223, 39
+  size: 101, 107
+  orig: 200, 200
+  offset: 52, 50
+  index: -1
+Burst_Efx/Burst_Efx_00013
+  rotate: false
+  xy: 1000, 144
+  size: 106, 112
+  orig: 200, 200
+  offset: 49, 45
+  index: -1
+Burst_Efx/Burst_Efx_00014
+  rotate: false
+  xy: 832, 11
+  size: 111, 121
+  orig: 200, 200
+  offset: 46, 41
+  index: -1
+Burst_Efx/Burst_Efx_00015
+  rotate: true
+  xy: 1866, 314
+  size: 119, 117
+  orig: 200, 200
+  offset: 42, 47
+  index: -1
+Burst_Efx/Burst_Efx_00016
+  rotate: false
+  xy: 628, 232
+  size: 129, 124
+  orig: 200, 200
+  offset: 37, 45
+  index: -1
+Burst_Efx/Burst_Efx_00017
+  rotate: false
+  xy: 490, 236
+  size: 136, 120
+  orig: 200, 200
+  offset: 34, 43
+  index: -1
+Burst_Efx/Burst_Efx_00018
+  rotate: false
+  xy: 1011, 258
+  size: 129, 124
+  orig: 200, 200
+  offset: 34, 41
+  index: -1
+Burst_Efx/Burst_Efx_00019
+  rotate: false
+  xy: 1532, 245
+  size: 124, 125
+  orig: 200, 200
+  offset: 40, 41
+  index: -1
+Burst_Efx/Burst_Efx_00020
+  rotate: false
+  xy: 1736, 215
+  size: 126, 126
+  orig: 200, 200
+  offset: 39, 41
+  index: -1
+Burst_Efx/Burst_Efx_00021
+  rotate: false
+  xy: 1273, 255
+  size: 127, 127
+  orig: 200, 200
+  offset: 39, 40
+  index: -1
+Burst_Efx/Burst_Efx_00022
+  rotate: false
+  xy: 759, 257
+  size: 129, 129
+  orig: 200, 200
+  offset: 38, 39
+  index: -1
+Burst_Efx/Burst_Efx_00023
+  rotate: false
+  xy: 1142, 253
+  size: 129, 129
+  orig: 200, 200
+  offset: 38, 39
+  index: -1
+Cloud
+  rotate: false
+  xy: 2, 345
+  size: 486, 179
+  orig: 703, 184
+  offset: 0, 1
+  index: -1
+Efx
+  rotate: false
+  xy: 291, 212
+  size: 191, 131
+  orig: 231, 139
+  offset: 38, 4
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00009
+  rotate: false
+  xy: 1511, 2
+  size: 12, 20
+  orig: 231, 139
+  offset: 49, 29
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00010
+  rotate: false
+  xy: 1698, 11
+  size: 46, 45
+  orig: 231, 139
+  offset: 43, 17
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00011
+  rotate: true
+  xy: 1829, 57
+  size: 64, 66
+  orig: 231, 139
+  offset: 41, 11
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00012
+  rotate: false
+  xy: 1581, 67
+  size: 81, 80
+  orig: 231, 139
+  offset: 42, 8
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00013
+  rotate: true
+  xy: 1597, 149
+  size: 94, 92
+  orig: 231, 139
+  offset: 44, 6
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00014
+  rotate: false
+  xy: 1108, 148
+  size: 106, 103
+  orig: 231, 139
+  offset: 47, 5
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00015
+  rotate: true
+  xy: 886, 140
+  size: 115, 112
+  orig: 231, 139
+  offset: 51, 5
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00016
+  rotate: true
+  xy: 1864, 191
+  size: 121, 118
+  orig: 231, 139
+  offset: 59, 5
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00017
+  rotate: false
+  xy: 759, 134
+  size: 125, 121
+  orig: 231, 139
+  offset: 66, 6
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00018
+  rotate: false
+  xy: 1402, 247
+  size: 128, 123
+  orig: 231, 139
+  offset: 74, 8
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00019
+  rotate: false
+  xy: 1736, 343
+  size: 128, 122
+  orig: 231, 139
+  offset: 83, 11
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00020
+  rotate: true
+  xy: 890, 260
+  size: 126, 119
+  orig: 231, 139
+  offset: 93, 15
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00021
+  rotate: false
+  xy: 709, 3
+  size: 121, 113
+  orig: 231, 139
+  offset: 104, 21
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00022
+  rotate: false
+  xy: 499, 2
+  size: 111, 107
+  orig: 231, 139
+  offset: 116, 27
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00023
+  rotate: false
+  xy: 1216, 148
+  size: 101, 103
+  orig: 231, 139
+  offset: 127, 31
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00024
+  rotate: true
+  xy: 405, 3
+  size: 87, 92
+  orig: 231, 139
+  offset: 141, 40
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00025
+  rotate: true
+  xy: 1664, 58
+  size: 70, 81
+  orig: 231, 139
+  offset: 158, 48
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00026
+  rotate: true
+  xy: 2, 2
+  size: 53, 62
+  orig: 231, 139
+  offset: 175, 59
+  index: -1
+Efx_Lightsweep/Efx_Lightsweep_00027
+  rotate: true
+  xy: 1691, 215
+  size: 30, 37
+  orig: 231, 139
+  offset: 196, 75
+  index: -1
+Epic
+  rotate: true
+  xy: 1468, 6
+  size: 59, 41
+  orig: 63, 46
+  offset: 2, 2
+  index: -1
+Epic_Amount
+  rotate: false
+  xy: 610, 232
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+Maxi_Amount
+  rotate: false
+  xy: 610, 232
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+Mega_Amount
+  rotate: false
+  xy: 610, 232
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+Epic_Color
+  rotate: false
+  xy: 1511, 24
+  size: 59, 41
+  orig: 63, 46
+  offset: 2, 2
+  index: -1
+Epic_IDR
+  rotate: false
+  xy: 1072, 5
+  size: 30, 23
+  orig: 34, 27
+  offset: 2, 2
+  index: -1
+Maxi_IDR
+  rotate: false
+  xy: 1072, 5
+  size: 30, 23
+  orig: 34, 27
+  offset: 2, 2
+  index: -1
+Mega_IDR
+  rotate: false
+  xy: 1072, 5
+  size: 30, 23
+  orig: 34, 27
+  offset: 2, 2
+  index: -1
+Epic_Plate
+  rotate: false
+  xy: 787, 447
+  size: 310, 77
+  orig: 316, 81
+  offset: 3, 2
+  index: -1
+Epic_Plate_Color
+  rotate: false
+  xy: 1099, 447
+  size: 310, 77
+  orig: 316, 81
+  offset: 3, 2
+  index: -1
+LOCK copy
+  rotate: true
+  xy: 610, 118
+  size: 112, 123
+  orig: 125, 137
+  offset: 6, 7
+  index: -1
+Left Wing
+  rotate: false
+  xy: 1747, 22
+  size: 41, 40
+  orig: 44, 42
+  offset: 1, 1
+  index: -1
+Lightsweep/Lightsweep_00007
+  rotate: false
+  xy: 1604, 7
+  size: 21, 24
+  orig: 191, 119
+  offset: 6, 4
+  index: -1
+Lightsweep/Lightsweep_00008
+  rotate: true
+  xy: 1131, 2
+  size: 34, 60
+  orig: 191, 119
+  offset: 4, 1
+  index: -1
+Lightsweep/Lightsweep_00009
+  rotate: true
+  xy: 66, 3
+  size: 52, 77
+  orig: 191, 119
+  offset: 1, 1
+  index: -1
+Lightsweep/Lightsweep_00010
+  rotate: true
+  xy: 1861, 123
+  size: 66, 82
+  orig: 191, 119
+  offset: 1, 1
+  index: -1
+Lightsweep/Lightsweep_00011
+  rotate: true
+  xy: 1497, 67
+  size: 78, 82
+  orig: 191, 119
+  offset: 3, 4
+  index: -1
+Lightsweep/Lightsweep_00012
+  rotate: true
+  xy: 1319, 151
+  size: 102, 80
+  orig: 191, 119
+  offset: 4, 8
+  index: -1
+Lightsweep/Lightsweep_00013
+  rotate: false
+  xy: 1627, 372
+  size: 107, 86
+  orig: 191, 119
+  offset: 7, 3
+  index: -1
+Lightsweep/Lightsweep_00014
+  rotate: false
+  xy: 291, 3
+  size: 112, 87
+  orig: 191, 119
+  offset: 13, 2
+  index: -1
+Lightsweep/Lightsweep_00015
+  rotate: true
+  xy: 945, 26
+  size: 112, 90
+  orig: 191, 119
+  offset: 25, 2
+  index: -1
+Lightsweep/Lightsweep_00016
+  rotate: true
+  xy: 612, 2
+  size: 114, 95
+  orig: 191, 119
+  offset: 39, 3
+  index: -1
+Lightsweep/Lightsweep_00017
+  rotate: true
+  xy: 1037, 30
+  size: 112, 92
+  orig: 191, 119
+  offset: 56, 8
+  index: -1
+Lightsweep/Lightsweep_00018
+  rotate: true
+  xy: 1131, 38
+  size: 108, 90
+  orig: 191, 119
+  offset: 70, 13
+  index: -1
+Lightsweep/Lightsweep_00019
+  rotate: false
+  xy: 1401, 67
+  size: 94, 78
+  orig: 191, 119
+  offset: 86, 28
+  index: -1
+Lightsweep/Lightsweep_00020
+  rotate: false
+  xy: 1776, 130
+  size: 83, 83
+  orig: 191, 119
+  offset: 101, 31
+  index: -1
+Lightsweep/Lightsweep_00021
+  rotate: false
+  xy: 1658, 286
+  size: 76, 84
+  orig: 191, 119
+  offset: 111, 33
+  index: -1
+Lightsweep/Lightsweep_00022
+  rotate: true
+  xy: 1747, 64
+  size: 64, 80
+  orig: 191, 119
+  offset: 125, 38
+  index: -1
+Lightsweep/Lightsweep_00023
+  rotate: true
+  xy: 145, 6
+  size: 49, 75
+  orig: 191, 119
+  offset: 140, 43
+  index: -1
+Lightsweep/Lightsweep_00024
+  rotate: false
+  xy: 1664, 2
+  size: 32, 54
+  orig: 191, 119
+  offset: 157, 64
+  index: -1
+Lightsweep/Lightsweep_00025
+  rotate: false
+  xy: 735, 197
+  size: 21, 33
+  orig: 191, 119
+  offset: 165, 83
+  index: -1
+Lock_Star 1
+  rotate: false
+  xy: 1947, 85
+  size: 36, 46
+  orig: 39, 49
+  offset: 2, 2
+  index: -1
+Lock_Star 2
+  rotate: false
+  xy: 1866, 435
+  size: 24, 30
+  orig: 26, 34
+  offset: 1, 2
+  index: -1
+Maxi
+  rotate: true
+  xy: 1945, 133
+  size: 56, 32
+  orig: 61, 36
+  offset: 2, 2
+  index: -1
+Maxi_Color
+  rotate: false
+  xy: 1572, 33
+  size: 56, 32
+  orig: 61, 36
+  offset: 2, 2
+  index: -1
+Maxi_Plate
+  rotate: false
+  xy: 1667, 467
+  size: 223, 57
+  orig: 227, 61
+  offset: 2, 2
+  index: -1
+Maxi_Plate_Color
+  rotate: false
+  xy: 787, 388
+  size: 223, 57
+  orig: 227, 61
+  offset: 2, 2
+  index: -1
+Mega
+  rotate: false
+  xy: 222, 18
+  size: 65, 37
+  orig: 70, 42
+  offset: 3, 3
+  index: -1
+Mega_Color
+  rotate: false
+  xy: 1658, 247
+  size: 65, 37
+  orig: 70, 42
+  offset: 3, 3
+  index: -1
+Mega_Plate
+  rotate: false
+  xy: 490, 358
+  size: 254, 64
+  orig: 259, 68
+  offset: 3, 2
+  index: -1
+Mega_Plate_Color
+  rotate: false
+  xy: 1411, 460
+  size: 254, 64
+  orig: 259, 68
+  offset: 3, 2
+  index: -1
+Right Wing
+  rotate: false
+  xy: 1230, 2
+  size: 46, 35
+  orig: 48, 37
+  offset: 1, 1
+  index: -1
+Shine1
+  rotate: false
+  xy: 2, 57
+  size: 287, 286
+  orig: 302, 301
+  offset: 7, 8
+  index: -1
+Shine2
+  rotate: true
+  xy: 484, 111
+  size: 123, 124
+  orig: 133, 134
+  offset: 5, 5
+  index: -1
+Star_1
+  rotate: false
+  xy: 1572, 2
+  size: 30, 29
+  orig: 34, 33
+  offset: 2, 2
+  index: -1
+Star_2
+  rotate: false
+  xy: 746, 390
+  size: 33, 32
+  orig: 36, 35
+  offset: 2, 1
+  index: -1
+Star_3
+  rotate: false
+  xy: 1037, 2
+  size: 33, 26
+  orig: 36, 29
+  offset: 1, 2
+  index: -1
+Star_4
+  rotate: true
+  xy: 735, 171
+  size: 24, 21
+  orig: 27, 24
+  offset: 1, 1
+  index: -1
+Title
+  rotate: false
+  xy: 291, 92
+  size: 189, 118
+  orig: 193, 121
+  offset: 2, 2
+  index: -1
